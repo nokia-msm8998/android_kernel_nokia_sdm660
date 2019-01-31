@@ -661,6 +661,9 @@ KBUILD_CFLAGS += $(call cc-option, -fcatch-undefined-behavior)
 ifneq ($(LLVM_IAS),1)
 KBUILD_CFLAGS += $(call cc-option, -no-integrated-as)
 KBUILD_AFLAGS += $(call cc-option, -no-integrated-as)
+ifeq ($(ld-name),lld)
+KBUILD_CFLAGS += -fuse-ld=lld
+endif
 endif
 ifeq ($(ld-name),lld)
 KBUILD_CFLAGS += -fuse-ld=lld
