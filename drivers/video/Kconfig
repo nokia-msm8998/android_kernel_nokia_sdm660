@@ -15,6 +15,13 @@ config SH_MIPI_DSI
 config SH_LCD_MIPI_DSI
 	bool
 
+config BOOST_NT50356
+        tristate "Boost and WLED Driver for BOOST_NT50356"
+        depends on I2C
+        select REGMAP_I2C
+        help
+          This supports NOVATEK BOOST_NT50356 Boost Converter and WLED driver
+
 source "drivers/char/agp/Kconfig"
 
 source "drivers/gpu/vga/Kconfig"
