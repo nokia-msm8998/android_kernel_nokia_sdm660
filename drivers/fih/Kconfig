@@ -1,3 +1,48 @@
 #
 # FIH drivers configuration file
 #
+
+config FIH_SDM630_SDM660_PROJS
+	bool "01 FIH_8937_PROJS"
+	help
+	Enable the support for FIH_8937_PROJS flag
+
+config FIH_MFD
+	bool "fih mfd"
+	default y
+	help
+	  support fih mfd virtual file
+
+config FIH_APR
+	bool "fih apr"
+	default y
+	help
+	  support fih apr virtual file
+
+config FIH_SENSOR
+	bool "fih sensor"
+	default y
+	help
+	  support fih sensor virtual file
+
+config FIH_TOUCH
+        bool "fih touch"
+        default y
+        help
+          support fih touch virtual file
+
+config FIH_LCM
+	bool "fih lcm"
+	default y
+	help
+	  support fih lcm function
+
+config FIH_HWCONFIG
+	bool "fih hwcfg/swid/hwid"
+	default y
+	help
+	  support fih hwcfg/swid/hwid function
+
+config FIH_HALL_SENSOR
+	bool "FIH Hall sensor"
+	default y
