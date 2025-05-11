@@ -1227,5 +1227,6 @@ source "drivers/input/touchscreen/st/Kconfig"
 
 source "drivers/input/touchscreen/focaltech_touch/Kconfig"
 source "drivers/input/touchscreen/focaltech_touch_8719/Kconfig"
+source "drivers/input/touchscreen/gt1x/Kconfig"
 
 endif
