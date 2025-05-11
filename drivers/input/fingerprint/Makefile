@@ -5,3 +5,4 @@
 
 obj-$(CONFIG_FINGERPRINT_614R)		+= elan/
 obj-$(CONFIG_FINGERPRINT_FPC1020)	+= fpc1020_platform_tee.o
+obj-$(CONFIG_FINGERPRINT_FT9362)	+= ft9362/

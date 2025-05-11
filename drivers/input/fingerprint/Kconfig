@@ -18,5 +18,7 @@ config FINGERPRINT_FPC1020
 	  This is a FPC 1020 chipset Driver.
 
 source "drivers/input/fingerprint/elan/Kconfig"
+source "drivers/input/fingerprint/ft9362/Kconfig"
+source "drivers/input/fingerprint/goodix_gf5288/Kconfig"
 
 endif
