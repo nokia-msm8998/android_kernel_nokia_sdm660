@@ -127,4 +127,7 @@ config PXLW_IRIS3
 	bool "Enable pxlw iris3"
 	default y
 
+# SW4-HL-Display-GlanceMode-00+_20170524
+source "drivers/video/fbdev/msm/fih/Kconfig"
+
 endif

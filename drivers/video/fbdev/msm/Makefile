@@ -73,3 +73,6 @@ obj-$(CONFIG_PXLW_IRIS3) += mdss_dsi_iris3_lightup.o
 obj-$(CONFIG_PXLW_IRIS3) += mdss_dsi_iris3_lut.o
 obj-$(CONFIG_PXLW_IRIS3) += mdss_dsi_iris3_pq.o
 obj-$(CONFIG_PXLW_IRIS3) += mdss_dsi_iris3_lp.o
+
+# SW4-HL-Display-GlanceMode-00+_20170524
+obj-$(CONFIG_AOD_FEATURE) +=fih/
